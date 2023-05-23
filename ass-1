@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int t,i,b=0,s=0,a=0;
+	printf("Enter the ages:\n");
+	for(i=1;i<=20;i++)
+	{
+		scanf("%d",&t);
+		if(t<=5)
+		b++;
+		else if(t<=17)
+		s++;
+		else
+		a++;
+	}
+	printf("Ages\n");
+	printf("Baby age=%d\nSchool age=%d\nAdult age=%d",b,s,a);
+	return 0;
+}
